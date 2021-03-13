@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "IM/F6q7D6yH2VcKm6kB25sXiL2GBvQNuR/ZaloLZwF1fZRjXk1OROt+EWsDXD6E+msoY6i3IrQm/s33W+8wZlA==",
+  "success": true,
+  "projectFilePath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

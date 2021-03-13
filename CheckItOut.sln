@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Ui.Web", "src\CheckItOut.Ui.Web\CheckItOut.Ui.Web.csproj", "{15C26939-5C3D-402B-82B9-C67A96CAC9AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Api.Http", "src\CheckItOut.Api.Http\CheckItOut.Api.Http.csproj", "{9B655931-FDBE-4A75-83FE-67A88477015F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Query.Api.Http", "src\CheckItOut.Query.Api.Http\CheckItOut.Query.Api.Http.csproj", "{0F5CA2B0-50F2-4458-A336-0C56422C98F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{15C26939-5C3D-402B-82B9-C67A96CAC9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15C26939-5C3D-402B-82B9-C67A96CAC9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15C26939-5C3D-402B-82B9-C67A96CAC9AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B655931-FDBE-4A75-83FE-67A88477015F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B655931-FDBE-4A75-83FE-67A88477015F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B655931-FDBE-4A75-83FE-67A88477015F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B655931-FDBE-4A75-83FE-67A88477015F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5CA2B0-50F2-4458-A336-0C56422C98F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5CA2B0-50F2-4458-A336-0C56422C98F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5CA2B0-50F2-4458-A336-0C56422C98F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5CA2B0-50F2-4458-A336-0C56422C98F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
