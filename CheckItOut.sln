@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Ui.Web", "src\CheckItOut.Ui.Web\CheckItOut.Ui.Web.csproj", "{15C26939-5C3D-402B-82B9-C67A96CAC9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Api.Http", "src\CheckItOut.Api.Http\CheckItOut.Api.Http.csproj", "{9B655931-FDBE-4A75-83FE-67A88477015F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C26939-5C3D-402B-82B9-C67A96CAC9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C26939-5C3D-402B-82B9-C67A96CAC9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C26939-5C3D-402B-82B9-C67A96CAC9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C26939-5C3D-402B-82B9-C67A96CAC9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B655931-FDBE-4A75-83FE-67A88477015F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B655931-FDBE-4A75-83FE-67A88477015F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B655931-FDBE-4A75-83FE-67A88477015F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B655931-FDBE-4A75-83FE-67A88477015F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCA4D0CC-5A11-4035-9B6E-E5A477209C8A}
+	EndGlobalSection
+EndGlobal
