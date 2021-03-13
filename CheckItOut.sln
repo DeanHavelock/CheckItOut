@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Domain", "src\Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Infrastructure", "src\CheckItOut.Infrastructure\CheckItOut.Infrastructure.csproj", "{FE9E5D4B-E118-4FE4-9E33-FD0D82B1C1A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{349CDF76-2DD8-4152-92CC-61DAD03AE384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckItOut.Domain.Tests", "test\CheckItOut.Domain.Tests\CheckItOut.Domain.Tests.csproj", "{D2E0A952-FF31-420C-8B0C-B279CAF4D39D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{FE9E5D4B-E118-4FE4-9E33-FD0D82B1C1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE9E5D4B-E118-4FE4-9E33-FD0D82B1C1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE9E5D4B-E118-4FE4-9E33-FD0D82B1C1A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E0A952-FF31-420C-8B0C-B279CAF4D39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E0A952-FF31-420C-8B0C-B279CAF4D39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E0A952-FF31-420C-8B0C-B279CAF4D39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E0A952-FF31-420C-8B0C-B279CAF4D39D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{3DE2E387-81CD-45E1-A790-0F6C78C79C26} = {14954096-C592-4031-96A4-4938C37BB7F8}
 		{C26E8BC9-E4B9-4B4A-8A74-C29C6CE3269F} = {14954096-C592-4031-96A4-4938C37BB7F8}
 		{FE9E5D4B-E118-4FE4-9E33-FD0D82B1C1A6} = {14954096-C592-4031-96A4-4938C37BB7F8}
+		{D2E0A952-FF31-420C-8B0C-B279CAF4D39D} = {349CDF76-2DD8-4152-92CC-61DAD03AE384}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCA4D0CC-5A11-4035-9B6E-E5A477209C8A}
