@@ -1,25 +1,26 @@
 ﻿using CheckItOut.Ui.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using CheckItOut.Ui.Web.ConfigurationOptions;
+using Microsoft.Extensions.Options;
 
 namespace CheckItOut.Ui.Web.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IOptions<CheckItOutQueryApiHttpOptions> _queryApiOptions;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IOptions<CheckItOutQueryApiHttpOptions> queryApiOptions)
         {
+            _queryApiOptions = queryApiOptions;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
+            var abc = _queryApiOptions.Value.GetPaymentsUrl;
             return View();
         }
 

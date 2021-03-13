@@ -355,3 +355,4 @@ C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Ui.Web\obj\Debug
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Ui.Web\obj\Debug\net5.0\ref\CheckItOut.Ui.Web.dll
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Ui.Web\obj\Debug\net5.0\CheckItOut.Ui.Web.pdb
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Ui.Web\obj\Debug\net5.0\CheckItOut.Ui.Web.genruntimeconfig.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Ui.Web\obj\Debug\net5.0\Razor\Views\Payments\Index.cshtml.g.cs

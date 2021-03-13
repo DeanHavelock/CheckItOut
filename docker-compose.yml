@@ -9,6 +9,7 @@ services:
       - 6001:80
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - CheckItOutQueryApiHttp:GetPaymentsUrl=http://checkitout.query.api.http/api/payments
     networks:
       - checkitout-network
 
