@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  checkitout.ui.web:
+    build:
+      context: .
+      dockerfile: src/CheckItOut.Ui.Web/Dockerfile
+    container_name: checkitout.ui.web
+    ports:
+      - 6000:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on: 
+      - checkitout.query.api.http
+    networks:
+      - checkitout-network
+
+  checkitout.query.api.http:
+    build:
+      context: .
+      dockerfile: src/CheckItOut.Query.Api.Http/Dockerfile
+    container_name: checkitout.query.api.http
+    ports:
+      - 6100:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - checkitout-network
+
+networks:
+  checkitout-network:
+    name: checkitout-network
