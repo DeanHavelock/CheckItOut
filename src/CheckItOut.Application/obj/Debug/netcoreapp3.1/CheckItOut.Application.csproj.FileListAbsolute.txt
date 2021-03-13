@@ -1,0 +1,12 @@
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\bin\Debug\netcoreapp3.1\CheckItOut.Application.deps.json
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\bin\Debug\netcoreapp3.1\CheckItOut.Application.dll
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\bin\Debug\netcoreapp3.1\CheckItOut.Application.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\bin\Debug\netcoreapp3.1\CheckItOut.Domain.dll
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\bin\Debug\netcoreapp3.1\CheckItOut.Domain.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\obj\Debug\netcoreapp3.1\CheckItOut.Application.csprojAssemblyReference.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\obj\Debug\netcoreapp3.1\CheckItOut.Application.AssemblyInfoInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\obj\Debug\netcoreapp3.1\CheckItOut.Application.AssemblyInfo.cs
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\obj\Debug\netcoreapp3.1\CheckItOut.Application.csproj.CoreCompileInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\obj\Debug\netcoreapp3.1\CheckItOut.Application.csproj.CopyComplete
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\obj\Debug\netcoreapp3.1\CheckItOut.Application.dll
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Application\obj\Debug\netcoreapp3.1\CheckItOut.Application.pdb

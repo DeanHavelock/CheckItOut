@@ -8,9 +8,9 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 @{
-    //http://fifthapi/weatherforecast
     HttpClient httpClient = new HttpClient();
-    var responseMessage = await httpClient.GetAsync("http://checkitout.query.api.http/weatherforecast");
+    //var responseMessage = await httpClient.GetAsync("localhost:6100/api/payments");
+    var responseMessage = await httpClient.GetAsync("http://checkitout.query.api.http/api/payments");
     var content = await responseMessage.Content.ReadAsStringAsync();
     @Html.Raw(content);
 }
