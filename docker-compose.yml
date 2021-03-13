@@ -6,11 +6,9 @@ services:
       dockerfile: src/CheckItOut.Ui.Web/Dockerfile
     container_name: checkitout.ui.web
     ports:
-      - 6000:80
+      - 6001:80
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    depends_on: 
-      - checkitout.query.api.http
     networks:
       - checkitout-network
 
