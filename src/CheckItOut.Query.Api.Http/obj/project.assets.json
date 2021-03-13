@@ -83,19 +83,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "CheckItOut.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "CheckItOut.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CheckItOut.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CheckItOut.Application.dll": {}
-        }
-      },
       "CheckItOut.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -106,17 +93,17 @@
           "bin/placeholder/CheckItOut.Domain.dll": {}
         }
       },
-      "CheckItOut.Infrastructure/1.0.0": {
+      "CheckItOut.Query.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "CheckItOut.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/CheckItOut.Infrastructure.dll": {}
+          "bin/placeholder/CheckItOut.Query.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CheckItOut.Infrastructure.dll": {}
+          "bin/placeholder/CheckItOut.Query.Application.dll": {}
         }
       }
     }
@@ -293,26 +280,20 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "CheckItOut.Application/1.0.0": {
-      "type": "project",
-      "path": "../CheckItOut.Application/CheckItOut.Application.csproj",
-      "msbuildProject": "../CheckItOut.Application/CheckItOut.Application.csproj"
-    },
     "CheckItOut.Domain/1.0.0": {
       "type": "project",
       "path": "../CheckItOut.Domain/CheckItOut.Domain.csproj",
       "msbuildProject": "../CheckItOut.Domain/CheckItOut.Domain.csproj"
     },
-    "CheckItOut.Infrastructure/1.0.0": {
+    "CheckItOut.Query.Application/1.0.0": {
       "type": "project",
-      "path": "../CheckItOut.Infrastructure/CheckItOut.Infrastructure.csproj",
-      "msbuildProject": "../CheckItOut.Infrastructure/CheckItOut.Infrastructure.csproj"
+      "path": "../CheckItOut.Query.Application/CheckItOut.Query.Application.csproj",
+      "msbuildProject": "../CheckItOut.Query.Application/CheckItOut.Query.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CheckItOut.Application >= 1.0.0",
-      "CheckItOut.Infrastructure >= 1.0.0",
+      "CheckItOut.Query.Application >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -349,11 +330,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\CheckItOut.Application.csproj": {
-              "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\CheckItOut.Application.csproj"
-            },
-            "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\CheckItOut.Infrastructure.csproj": {
-              "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\CheckItOut.Infrastructure.csproj"
+            "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj": {
+              "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj"
             }
           }
         }

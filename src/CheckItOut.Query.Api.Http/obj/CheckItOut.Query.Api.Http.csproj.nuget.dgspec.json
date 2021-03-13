@@ -4,68 +4,6 @@
     "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj": {}
   },
   "projects": {
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\CheckItOut.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\CheckItOut.Application.csproj",
-        "projectName": "CheckItOut.Application",
-        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\CheckItOut.Application.csproj",
-        "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Dean.Havelock\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/ckotech/auth/7d69fce0-9156-4a2e-a55c-f0e9c481ff40/api/v2": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
-                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -124,14 +62,89 @@
         }
       }
     },
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\CheckItOut.Infrastructure.csproj": {
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\CheckItOut.Infrastructure.csproj",
-        "projectName": "CheckItOut.Infrastructure",
-        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\CheckItOut.Infrastructure.csproj",
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj",
+        "projectName": "CheckItOut.Query.Api.Http",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj",
         "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\obj\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dean.Havelock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/ckotech/auth/7d69fce0-9156-4a2e-a55c-f0e9c481ff40/api/v2": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj": {
+                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
+        "projectName": "CheckItOut.Query.Application",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
+        "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -178,84 +191,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj",
-        "projectName": "CheckItOut.Query.Api.Http",
-        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\CheckItOut.Query.Api.Http.csproj",
-        "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Api.Http\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Dean.Havelock\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/ckotech/auth/7d69fce0-9156-4a2e-a55c-f0e9c481ff40/api/v2": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\CheckItOut.Application.csproj": {
-                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Application\\CheckItOut.Application.csproj"
-              },
-              "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\CheckItOut.Infrastructure.csproj": {
-                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Infrastructure\\CheckItOut.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.10.9, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

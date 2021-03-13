@@ -11,10 +11,8 @@ C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\b
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Application.dll
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Domain.dll
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Infrastructure.dll
-C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Application.pdb
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Infrastructure.pdb
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Domain.pdb
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\obj\Debug\net5.0\CheckItOut.Query.Api.Http.csprojAssemblyReference.cache
@@ -33,3 +31,5 @@ C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\o
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\obj\Debug\net5.0\ref\CheckItOut.Query.Api.Http.dll
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\obj\Debug\net5.0\CheckItOut.Query.Api.Http.pdb
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\obj\Debug\net5.0\CheckItOut.Query.Api.Http.genruntimeconfig.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Query.Application.dll
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Api.Http\bin\Debug\net5.0\CheckItOut.Query.Application.pdb

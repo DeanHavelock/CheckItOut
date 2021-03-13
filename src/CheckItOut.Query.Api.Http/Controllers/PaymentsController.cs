@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CheckItOut.Application.QueryHandlers;
+using CheckItOut.Query.Application.Queries;
 
 namespace CheckItOut.Query.Api.Http.Controllers
 {
