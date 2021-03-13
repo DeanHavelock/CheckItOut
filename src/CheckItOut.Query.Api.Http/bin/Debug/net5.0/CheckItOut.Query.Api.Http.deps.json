@@ -25,8 +25,8 @@
     ".NETCoreApp,Version=v5.0": {
       "CheckItOut.Query.Api.Http/1.0.0": {
         "dependencies": {
-          "CheckItOut.Application": "1.0.0",
           "CheckItOut.Infrastructure": "1.0.0",
+          "CheckItOut.Query.Application": "1.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -380,17 +380,6 @@
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
-      "CheckItOut.Application/1.0.0": {
-        "dependencies": {
-          "CheckItOut.Domain": "1.0.0"
-        },
-        "runtime": {
-          "CheckItOut.Application.dll": {}
-        },
-        "compile": {
-          "CheckItOut.Application.dll": {}
-        }
-      },
       "CheckItOut.Domain/1.0.0": {
         "runtime": {
           "CheckItOut.Domain.dll": {}
@@ -408,6 +397,17 @@
         },
         "compile": {
           "CheckItOut.Infrastructure.dll": {}
+        }
+      },
+      "CheckItOut.Query.Application/1.0.0": {
+        "dependencies": {
+          "CheckItOut.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CheckItOut.Query.Application.dll": {}
+        },
+        "compile": {
+          "CheckItOut.Query.Application.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2165,17 +2165,17 @@
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
     },
-    "CheckItOut.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CheckItOut.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "CheckItOut.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CheckItOut.Query.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

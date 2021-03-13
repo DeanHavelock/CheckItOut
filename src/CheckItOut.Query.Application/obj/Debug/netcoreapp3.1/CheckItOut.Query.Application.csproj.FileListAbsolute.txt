@@ -1,0 +1,12 @@
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\bin\Debug\netcoreapp3.1\CheckItOut.Query.Application.deps.json
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\bin\Debug\netcoreapp3.1\CheckItOut.Query.Application.dll
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\bin\Debug\netcoreapp3.1\CheckItOut.Query.Application.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\bin\Debug\netcoreapp3.1\CheckItOut.Domain.dll
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\bin\Debug\netcoreapp3.1\CheckItOut.Domain.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.csprojAssemblyReference.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.AssemblyInfoInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.AssemblyInfo.cs
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.csproj.CoreCompileInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.csproj.CopyComplete
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.dll
+C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Query.Application\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CheckItOut.Query.Application/1.0.0": {
+        "dependencies": {
+          "CheckItOut.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CheckItOut.Query.Application.dll": {}
+        }
+      },
+      "CheckItOut.Domain/1.0.0": {
+        "runtime": {
+          "CheckItOut.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CheckItOut.Query.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CheckItOut.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

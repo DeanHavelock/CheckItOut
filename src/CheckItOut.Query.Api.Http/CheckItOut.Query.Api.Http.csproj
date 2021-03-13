@@ -13,8 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CheckItOut.Application\CheckItOut.Application.csproj" />
-    <ProjectReference Include="..\CheckItOut.Infrastructure\CheckItOut.Infrastructure.csproj" />
+    <ProjectReference Include="..\CheckItOut.Query.Application\CheckItOut.Query.Application.csproj" />
   </ItemGroup>
 
 </Project>
