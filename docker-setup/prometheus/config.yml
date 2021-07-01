@@ -1,0 +1,35 @@
+# my global config
+global:
+  scrape_interval:     10s
+  evaluation_interval: 30s
+  # scrape_timeout is set to the global default (10s).
+
+scrape_configs:
+  - job_name: prometheus
+
+    static_configs:
+      - targets: 
+        - 'localhost:9090'
+
+  - job_name: gateway-vault
+
+    static_configs:
+      - targets: 
+        - 'host.docker.internal:5000'
+        - 'host.docker.internal:5050'
+        - 'host.docker.internal:5100'
+    
+    metrics_path: /_system/metrics
+  
+  - job_name: mysql-monitor
+    
+    static_configs:
+      - targets: ['vault.mysql.exporter:9104']
+      
+  - job_name: vault-instrument-importer
+  
+    static_configs:
+      - targets:
+        - 'host.docker.internal:5200'
+    
+    metrics_path: /_system/metrics

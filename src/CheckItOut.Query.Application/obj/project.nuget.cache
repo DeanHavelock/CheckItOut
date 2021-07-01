@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GXgehcWxDef0Rctqa2SOEhGtgoKBG+bLZysxZ79TpIwQAGpfvF3gXl8njQYcS+LlX9AbFc2r6qUjj7DFnmQNNg==",
+  "dgSpecHash": "YihWglc9FXY81HdM4DC4sIQUP5w+HaUbVAThTLxNo8oolOaxJYut8e9y1pjTLY76jjZnSEqP9Ie0iiKZj0JLmQ==",
   "success": true,
-  "projectFilePath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

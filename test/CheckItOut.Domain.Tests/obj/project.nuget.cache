@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JaQNMv5d6HUJpWEcoeNgzsO0xxfvKosIyNdPJ8dNUIWjL1EQnccnRbEOpUAEd475a9ah9+r5VBv5N8vAmHu3Fg==",
+  "dgSpecHash": "3vJO1nUc9wn7PZ87yv4MFcpiBIORLB7gNv9hN6zC0L++ZRT3LbmP8mnQqrrIX0P43BzwERADVJt5kz+ZS79QZw==",
   "success": true,
-  "projectFilePath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\test\\CheckItOut.Domain.Tests\\CheckItOut.Domain.Tests.csproj",
+  "projectFilePath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\test\\CheckItOut.Domain.Tests\\CheckItOut.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dean.Havelock\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
+    "C:\\Users\\Dean.Havelock\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Dean.Havelock\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Users\\Dean.Havelock\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Dean.Havelock\\.nuget\\packages\\microsoft.net.test.sdk\\16.7.1\\microsoft.net.test.sdk.16.7.1.nupkg.sha512",

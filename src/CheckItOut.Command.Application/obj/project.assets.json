@@ -1,11 +1,60 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "CheckItOut.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CheckItOut.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CheckItOut.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "CheckItOut.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CheckItOut.Domain/CheckItOut.Domain.csproj",
+      "msbuildProject": "../CheckItOut.Domain/CheckItOut.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CheckItOut.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dean.Havelock\\.nuget\\packages\\": {},
@@ -14,11 +63,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj",
+      "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj",
       "projectName": "CheckItOut.Command.Application",
-      "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj",
+      "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj",
       "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
-      "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Command.Application\\obj\\",
+      "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -38,7 +87,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
+              "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

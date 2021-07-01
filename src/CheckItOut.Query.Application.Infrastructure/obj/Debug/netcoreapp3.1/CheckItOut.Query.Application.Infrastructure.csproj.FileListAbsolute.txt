@@ -1,0 +1,12 @@
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\bin\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.deps.json
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\bin\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.dll
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\bin\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.AssemblyInfoInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.AssemblyInfo.cs
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.csproj.CoreCompileInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.dll
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.csprojAssemblyReference.cache
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\bin\Debug\netcoreapp3.1\CheckItOut.Domain.dll
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\bin\Debug\netcoreapp3.1\CheckItOut.Domain.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Query.Application.Infrastructure\obj\Debug\netcoreapp3.1\CheckItOut.Query.Application.Infrastructure.csproj.CopyComplete

@@ -1,0 +1,119 @@
+USE ADMINISTRATION
+
+GO
+
+INSERT INTO [dbo].[PaymentMethod]
+(
+	[PaymentTypeId],
+    [PaymentMethodCode],
+	[PaymentMethodName],
+	[PaymentMethodStatementName],
+    [LPType],
+    [ActionPermission],
+    [AllowChargeback],
+    [IsIFrame],
+    [IsActive],
+    [DelFlag],
+    [CreatedBy],
+    [CreatedDate],
+    [ModifiedBy],
+    [ModifiedDate]
+)
+VALUES
+(
+	1,
+	101,
+	'VISA',
+	'Visa',
+	null,
+	0,
+	0,
+	null,
+	1,
+	0,
+	0,
+	GETDATE(),
+	0,
+	GETDATE()
+),
+(
+	1,
+	102,
+	'MASTERCARD',
+	'Mastercard',
+	null,
+	0,
+	0,
+	null,
+	1,
+	0,
+	0,
+	GETDATE(),
+	0,
+	GETDATE()
+),
+(
+	1,
+	103,
+	'AMEX',
+	'Amex',
+	null,
+	0,
+	0,
+	null,
+	1,
+	0,
+	0,
+	GETDATE(),
+	0,
+	GETDATE()
+),
+(
+	2,
+	205,
+	'eNets',
+	'eNets',
+	null,
+	0,
+	0,
+	null,
+	1,
+	0,
+	0,
+	GETDATE(),
+	0,
+	GETDATE()
+),
+(
+	2,
+	204,
+	'IDeal',
+	'IDeal',
+	null,
+	0,
+	0,
+	null,
+	1,
+	0,
+	0,
+	GETDATE(),
+	0,
+	GETDATE()
+),
+(
+	2,
+	206,
+	'Qiwi',
+	'Qiwi',
+	null,
+	0,
+	0,
+	null,
+	1,
+	0,
+	0,
+	GETDATE(),
+	0,
+	GETDATE()
+)
+GO

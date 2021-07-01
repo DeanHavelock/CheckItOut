@@ -1,0 +1,74 @@
+version: "3.7"
+services:
+    checkitout.localstack:
+        image: localstack/localstack:0.11.2
+        container_name: localstack
+        environment:
+          - SERVICES=s3,sqs,dynamodb
+          - HOSTNAME=localstack
+          - AWS_DEFAULT_REGION=eu-west-2
+          - AWS_ACCESS_KEY_ID=xxx
+          - AWS_SECRET_ACCESS_KEY=xxx
+        ports:
+          - "4569:4569"
+          - "4572:4572"
+          - "4576:4576"
+          - "8080:8080"
+        networks:
+          - checkitout-network
+    
+    checkitout.localstack.config:
+        container_name: localstack-config
+        build:
+            context: ./docker-setup/localstack-config
+        environment:
+          - AWS_SECRET_KEY_ID=xxx
+          - AWS_SECRET_ACCESS_KEY=xxx
+          - REGION_NAME=eu-west-2
+          - ENDPOINT_URL=checkitout.localstack
+        depends_on:
+          - checkitout.localstack
+        networks:
+          - checkitout-network
+    
+    dynamodb-ui:
+        image:  aaronshaf/dynamodb-admin
+        container_name: dynamodb-ui
+        ports:
+          - "8001:8001"
+        environment:
+          - "DYNAMO_ENDPOINT=http://localstack:4569"
+        networks:
+          - checkitout-network
+
+    eventstore.db:
+        image: eventstore/eventstore:20.10.2-bionic
+        environment:
+          - EVENTSTORE_CLUSTER_SIZE=1
+          - EVENTSTORE_RUN_PROJECTIONS=All
+          - EVENTSTORE_START_STANDARD_PROJECTIONS=true
+          - EVENTSTORE_EXT_TCP_PORT=1113
+          - EVENTSTORE_EXT_HTTP_PORT=2113
+          - EVENTSTORE_INSECURE=true
+          - EVENTSTORE_ENABLE_EXTERNAL_TCP=true
+          - EVENTSTORE_ENABLE_ATOM_PUB_OVER_HTTP=true
+        ports:
+          - "1113:1113"
+          - "2113:2113"
+        networks:
+          - checkitout-network        
+        volumes:
+          - type: volume
+            source: eventstore-volume-data
+            target: /var/lib/eventstore
+          - type: volume
+            source: eventstore-volume-logs
+            target: /var/log/eventstore
+
+networks:
+    checkitout-network:
+        name: checkitout-network
+
+volumes:
+    eventstore-volume-data:
+    eventstore-volume-logs:

@@ -5,14 +5,14 @@ namespace CheckItOut.Domain.Tests
 {
     public class SomeAggregateRootTests
     {
-        [Fact]
-        public void GivenAnId_WhenSetOnAggregate_ReturnsCorrectId()
-        {
-            string id = "12345";
+        //[Fact]
+        //public void GivenAnId_WhenSetOnAggregate_ReturnsCorrectId()
+        //{
+        //    string id = "12345";
             
-            SomeAggregateRoot aggregateRoot = new SomeAggregateRoot(id);
+        //    SomeAggregateRoot aggregateRoot = new SomeAggregateRoot(id);
             
-            Assert.True(aggregateRoot.Id == id);
-        }
+        //    Assert.True(aggregateRoot.Id == id);
+        //}
     }
 }

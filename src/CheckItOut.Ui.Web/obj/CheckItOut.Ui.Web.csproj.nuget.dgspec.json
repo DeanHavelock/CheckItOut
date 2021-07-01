@@ -1,17 +1,211 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj": {}
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj": {}
   },
   "projects": {
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj": {
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application.Infrastructure\\CheckItOut.Command.Application.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj",
-        "projectName": "CheckItOut.Ui.Web",
-        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj",
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application.Infrastructure\\CheckItOut.Command.Application.Infrastructure.csproj",
+        "projectName": "CheckItOut.Command.Application.Infrastructure",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application.Infrastructure\\CheckItOut.Command.Application.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Ui.Web\\obj\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dean.Havelock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/ckotech/auth/7d69fce0-9156-4a2e-a55c-f0e9c481ff40/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
+                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj",
+        "projectName": "CheckItOut.Command.Application",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj",
+        "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dean.Havelock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/ckotech/auth/7d69fce0-9156-4a2e-a55c-f0e9c481ff40/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
+                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj",
+        "projectName": "CheckItOut.Domain",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dean.Havelock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/ckotech/auth/7d69fce0-9156-4a2e-a55c-f0e9c481ff40/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj",
+        "projectName": "CheckItOut.Ui.Web",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Ui.Web\\CheckItOut.Ui.Web.csproj",
+        "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Ui.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,7 +225,17 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application.Infrastructure\\CheckItOut.Command.Application.Infrastructure.csproj": {
+                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application.Infrastructure\\CheckItOut.Command.Application.Infrastructure.csproj"
+              },
+              "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj": {
+                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Command.Application\\CheckItOut.Command.Application.csproj"
+              },
+              "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
+                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,6 +248,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.3, )"

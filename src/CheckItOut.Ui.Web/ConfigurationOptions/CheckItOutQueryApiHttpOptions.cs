@@ -3,6 +3,7 @@
     public class CheckItOutQueryApiHttpOptions
     {
         public static string CheckItOutQueryApi => "CheckItOutQueryApiHttp";
-        public string GetPaymentsUrl { get; set; }
+        public string BaseUrl { get; set; }
+        public string PaymentsEndpoint { get; set; }
     }
 }

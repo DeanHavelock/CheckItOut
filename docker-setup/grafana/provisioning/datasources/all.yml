@@ -1,0 +1,38 @@
+apiVersion: 1
+
+datasources:
+  - name: 'prometheus'
+    type: 'prometheus'
+    access: 'proxy'
+    org_id: 1
+    url: 'http://prometheus:9090'
+    is_default: true
+    version: 1
+    editable: true
+
+  - name: 'Prometheus-GW3 QA'
+    type: 'prometheus'
+    access: 'proxy'
+    org_id: 1
+    url: 'http://10.17.32.8:9090/'
+    is_default: false
+    version: 1
+    editable: true
+
+  - name: 'Prometheus SBOX'
+    type: 'prometheus'
+    access: 'proxy'
+    org_id: 1
+    url: 'http://10.66.1.233:9090/'
+    is_default: false
+    version: 1
+    editable: true
+
+  - name: 'Prometheus-GWC Prod (Legacy)'
+    type: 'prometheus'
+    access: 'proxy'
+    org_id: 1
+    url: 'http://10.16.40.33:9090/'
+    is_default: false
+    version: 1
+    editable: true

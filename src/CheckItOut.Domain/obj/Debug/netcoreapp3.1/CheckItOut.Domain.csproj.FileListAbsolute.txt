@@ -7,3 +7,11 @@ C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Domain\obj\Debug
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.csproj.CoreCompileInputs.cache
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.dll
 C:\SourceRepo\DeanHavelock\CheckItOut\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\bin\Debug\netcoreapp3.1\CheckItOut.Domain.deps.json
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\bin\Debug\netcoreapp3.1\CheckItOut.Domain.dll
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\bin\Debug\netcoreapp3.1\CheckItOut.Domain.pdb
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.AssemblyInfoInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.AssemblyInfo.cs
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.csproj.CoreCompileInputs.cache
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.dll
+C:\SourceRepo\DeanHavelock\CheckItOut-Demo\CheckItOut\src\CheckItOut.Domain\obj\Debug\netcoreapp3.1\CheckItOut.Domain.pdb

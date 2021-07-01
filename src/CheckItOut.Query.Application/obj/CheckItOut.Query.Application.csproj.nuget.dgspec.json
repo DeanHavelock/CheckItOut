@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj": {}
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj": {}
   },
   "projects": {
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj",
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj",
         "projectName": "CheckItOut.Domain",
-        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj",
         "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\obj\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +68,14 @@
         }
       }
     },
-    "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj": {
+    "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
+        "projectUniqueName": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
         "projectName": "CheckItOut.Query.Application",
-        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
+        "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Query.Application\\CheckItOut.Query.Application.csproj",
         "packagesPath": "C:\\Users\\Dean.Havelock\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Query.Application\\obj\\",
+        "outputPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Query.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -90,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
-                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj"
+              "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj": {
+                "projectPath": "C:\\SourceRepo\\DeanHavelock\\CheckItOut-Demo\\CheckItOut\\src\\CheckItOut.Domain\\CheckItOut.Domain.csproj"
               }
             }
           }

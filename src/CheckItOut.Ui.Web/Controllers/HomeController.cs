@@ -20,7 +20,7 @@ namespace CheckItOut.Ui.Web.Controllers
 
         public IActionResult Index()
         {
-            var abc = _queryApiOptions.Value.GetPaymentsUrl;
+            //var abc = _queryApiOptions.Value.GetPaymentsUrl;
             return View();
         }
 
